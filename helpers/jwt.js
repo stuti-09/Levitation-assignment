@@ -8,7 +8,7 @@ function authJwt(req,res){
        
     }).unless({
         path:[
-            {url:/\/post(.*)/,methods:['GET','OPTIONS']},
+            {url:/(.*)/,methods:['GET','OPTIONS']},
             {url:/\/category(.*)/,methods:['GET','OPTIONS']},
             {url:/\/images(.*)/,methods:['GET','OPTIONS']},
             
