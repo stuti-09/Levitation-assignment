@@ -32,7 +32,7 @@ const storage = multer.diskStorage({
 
 app.use("/auth", authRoute)
 app.use("/user", Userroute)
-app.use("/post", Postroute)
+app.use("/", Postroute)
 
 
 
