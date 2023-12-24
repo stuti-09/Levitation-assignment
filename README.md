@@ -22,7 +22,7 @@ This documentation provides step-by-step instructions for setting up, running, a
 ## Clone the Repository
 git clone https://github.com/stuti-09/Levitation-assignment.git
 
-##Install Dependencies
+## Install Dependencies
 npm install
 
 ## Environment Variables
@@ -55,8 +55,3 @@ Visit ‘/’
 Visit ‘/:id’
 
 
-Blog Posts-
-To see all posts and create a post -
-Visit ‘/’
-To get ,delete and update a post -
-Visit ‘/:id’
